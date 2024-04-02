@@ -15,7 +15,10 @@
     "preview-photo"
   ],
   "author": "huanglf",
-  "bugs": "https://github.com/huanglf0104/react-preview-photo/issues",
+  "bugs": {
+    "url": "https://github.com/huanglf/react-preview-photo/issues",
+    "email": "huanglf0104@163.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.24.3",

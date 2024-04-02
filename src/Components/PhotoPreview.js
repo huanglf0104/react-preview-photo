@@ -284,7 +284,8 @@ class PhotoPreview extends React.Component {
         },
       },
       () => {
-        this.photoShow(imgs[nImgIndex].bigUrl, imgs[nImgIndex].alt, false)
+        const bigUrl = imgs[nImgIndex].bigUrl || imgs[nImgIndex].url
+        this.photoShow(bigUrl, imgs[nImgIndex].alt, false)
       }
     )
   }
